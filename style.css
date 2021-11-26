@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+}
+#par-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#hero-head-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    height: 30%;
+}
+#hero-head-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#hero-div{
+    display: flex;
+    flex-direction: row;
+}
+#hero-secondary-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#sub-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+#quote-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+#quote-div{
+    display: flex;
+    flex-direction: column;
+}
+#quote-div p{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+
+
+
+
+#cta-cont{
+    display: flex;  
+    justify-content: center;    /*Justify because this element is in flex-row*/
+}
+#cta-div{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
