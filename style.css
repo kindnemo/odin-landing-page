@@ -1,0 +1,214 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#par-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Some meta data */
+
+
+
+/* Hero and header */
+#hero-head-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+#hero-head-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap: 100px;
+    padding: 20px 40px 40px 40px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+header h1{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+#hero-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#hero-head-div a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin: 10px;
+}
+#hero-head-div a:hover{
+    text-decoration: underline;
+}
+#hero-div h1{
+    font-size: 48px;
+    font-weight:bold;
+    color: #f9faf8;
+}
+#hero-div p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#hero-img{
+    width: 500px;
+    height: 300px;
+}
+#hero-div h1,p,button{
+    margin: 10px;
+}
+#hero-div button{
+    background-color: #3882f6;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Hero and header */
+
+
+
+
+
+/* secondary div starts */
+
+#hero-secondary-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 40px 40px 40px;
+}
+#hero-secondary-div h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+#sub-menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sub-menu img{
+    border: solid 3px #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+#sub-menu p{
+    width: 140px;
+    color: darkgray;
+    font-size: 18px;
+}
+
+/* secondary div ends */
+
+
+
+/* Quote div */
+
+#quote-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 20px 40px 40px 40px;
+}
+#quote-div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#quote-div blockquote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+#quote-div p{
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+/* Quote div */
+
+
+/* call to action div */
+
+#cta-cont{
+    display: flex;  
+    justify-content: center;    /*Justify because this element is in flex-row*/
+}
+#cta-div{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 80px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+}
+#cta-div h3{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+#cta-div p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+#cta-div button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+/* call to action div */
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    color: #f9faf8;
+}
